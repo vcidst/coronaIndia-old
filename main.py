@@ -9,6 +9,10 @@ app = FastAPI()
 def single(patients: PatientList):
     return process_records(patients)
 
+@app.get("/status/")
+def status():
+    return jsonify(status="alive")
+
 def process_records(records):
     return {
         "patients": [
