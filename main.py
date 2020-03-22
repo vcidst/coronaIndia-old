@@ -11,7 +11,7 @@ def single(patients: PatientList):
 
 @app.get("/status/")
 def status():
-    return jsonify(status="alive")
+    return {"status": "alive"}
 
 def process_records(records):
     return {
