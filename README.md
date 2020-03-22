@@ -120,3 +120,11 @@ Returns :
    ]
 }
 ```
+
+## How to run this server
+
+I'm using `uvicorn` as the ASGI server, 
+
+```bash
+uvicorn main:app
+```
