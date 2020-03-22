@@ -7,3 +7,5 @@ bqplot
 ipympl
 ipyvolume
 scipy
+fastapi
+uvicorb==0.9.0
