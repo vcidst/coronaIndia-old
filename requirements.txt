@@ -8,4 +8,4 @@ ipympl
 ipyvolume
 scipy
 fastapi
-uvicorb==0.9.0
+uvicorn==0.9.0
