@@ -9,3 +9,4 @@ ipyvolume
 scipy
 fastapi
 uvicorn==0.9.0
+spacy
