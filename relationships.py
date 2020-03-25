@@ -4,9 +4,10 @@ from spacy.tokens import Token
 import functools
 import re
 import json
+import en_core_web_sm
 
 # [{ patientId : '', notes : ""}, {}...]
-nlp = spacy.load("en_core_web_sm")
+nlp = en_core_web_sm.load()
 
 def get_travel_status(span):
     if span.label_ == "GPE":
